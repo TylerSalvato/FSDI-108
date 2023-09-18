@@ -10,3 +10,8 @@ developer = {
         "city": "raleigh"
     }
 }
+
+
+
+
+con_str = "mongodb+srv://tylersalvato727:monGodb_ch40@cluster0.lfizo41.mongodb.net/?retryWrites=true&w=majority"
