@@ -1,3 +1,6 @@
+import pymongo
+import certifi
+
 developer = {
     "first": "Tyler",
     "last": "Salvato",
@@ -15,3 +18,5 @@ developer = {
 
 
 con_str = "mongodb+srv://tylersalvato727:monGodb_ch40@cluster0.lfizo41.mongodb.net/?retryWrites=true&w=majority"
+client = pymongo.MongoClient(con_str, tlsCAFile=certifi.where())
+db = client.get_database("loadingfocus")

@@ -32,3 +32,7 @@ python3 server.py
 
 Flask pymongo
 To read and write data to a mongo db
+
+
+python3 -m pip install "pymongo[srv]" certifi
+
